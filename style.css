@@ -1,0 +1,627 @@
+*{margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    
+    }
+    
+    #header{ background-color: white;
+        font-size: 16px;
+            font-weight: bolder;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 56px;}
+    #header a{overflow: hidden;
+        background-color: #FF5F1F;
+        color: white;
+        font-size: 12px;
+        border-radius: 3px;
+        padding: 7px 14px;
+        text-decoration: none;
+    }
+        #header a:hover{
+        color: navy;
+    }
+    #header a:visited{
+        color: white;
+    }
+    .firstpage{
+        background-color:#02042A ;
+    }
+    
+            
+    #payrollindex img{height: 40px;} 
+     #payrollindex{   height: 56px;
+        width: 140px;
+        padding-top: 5px;
+    }
+    #navbar{
+        display: flex;
+       
+        height: 107px;
+        align-items: center;
+        padding: 0px 32px;
+        justify-content: space-around;
+       }
+    
+    #flag img{
+        height: 31px;
+        width: px;
+        padding: 0px 12px;
+    }
+    #logo img{
+        height: 31px;
+        width: 125px;
+        
+    }
+    #nav{
+        display: flex;
+        color: white;
+        
+    }
+    #nav li{
+        padding: 24px 12px 16px;
+        list-style-type: none;
+    }
+    #nav li a{color: white;
+        text-decoration: none;
+        
+    }
+    #nav li a:hover{
+        color: deepskyblue;
+        text-decoration: underline;
+    }
+    #nav li a:visited{
+        color: white;
+    }
+    #log{color: white;
+        text-decoration: none;
+        padding: 12px 20px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: dodgerblue;
+    }
+    #log a{
+        text-decoration:none;
+        color: white;
+    }
+    #log a:visited{
+        color: whitesmoke;}
+    #signup{
+        text-decoration: none;
+        color: cornflowerblue;
+        background-color: whitesmoke;
+        margin: 0px 0px 0px 16px;
+        padding: 12px 20px;
+    }
+    #signup a:visited{
+        color: whitesmoke;
+    
+    }
+    #signup a:hover{
+        color: royalblue;
+    }
+    #fpbody{
+        padding: 0px 32px;
+        }
+    #fpbody img{
+        height: 480px;
+        width: 576px;
+        
+    }
+    
+    #fptext{
+        height: 500px;
+        width: 410px;
+        float: left;
+        padding: 80px 0px;
+          
+    }
+    #fptext h1{
+        color: white;
+        margin: 0px 0px 16px;
+    }
+    #fptext p{
+        color:rgb(183, 183, 183);
+        font-size: 18px;
+        margin: 20px 0px;
+    
+    }
+    .a{
+        line-height: 5px;
+    
+    }
+    .signupnow a{
+        text-decoration: none;
+        color: white;
+    }
+    .signupnow{
+            padding: 10px 10px;
+        border-radius: 4px;
+        background-color: hsl(209 82% 54% / 1);
+        }
+    .signupnow:hover{
+        background-color:hsl(209, 94%, 25%);
+    }
+    
+    #b1{
+        line-height: 0px;
+        
+    }
+    #b1 span{
+        display: inline-block;
+        width: 24px;
+        height: 4px;
+        margin: top 16px;
+        margin-bottom: 16px;
+        background-color: aquamarine;
+    }
+    .header{
+        display: flex;
+        height: 63px;
+        position: static;
+        background-image:stickyheadbg;
+    }
+    #header1{
+        justify-content: space-around;
+    }
+    #header1 span img{
+        width: 125;
+        height: 30;
+    
+    }
+    #head1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container2 h2{
+        font-size: 1.5rem;
+       font-weight: 800 ;
+       color: hsla(237, 90.9%, 8.6%, 1);
+       line-height: 1.33;
+    }
+    #greenbar span{
+        display: inline-block;
+        width: 24px;
+        height: 4px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: hsla(158, 52.7%, 59.4%, 1);
+    }
+    #greenbar{
+        display: flex;
+        justify-content: center;
+        line-height: 0px;
+        background-image: url("dotbg.png");
+    }
+    .container3{
+        text-align: left;
+        width: 510px;
+    }
+    .container3 h3{
+        font-size: 1.75em;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    .stickyheader{display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 63px;
+        position: sticky;
+        top: 0;
+        background-image:url("stickyheadbg.svg") ;
+    }
+    .stickyheader img{
+        height: 30px;
+        width: 125px;
+    }
+    #bflag img{
+        
+        height: 20px;
+        width: 28px;
+        align-self: center;
+        margin: 0px 12px;
+    }
+        
+    #headerbutton{
+        padding: 7px 18px;
+        text-decoration: none;
+        display: inline-block;
+        width: 272px;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.2;
+        border-radius: 0.25rem;
+        font-weight: 700;
+        height: 36px;
+        background: linear-gradient(92.53deg, #2A86F3 20.22%, #0649ED 128.79%);;
+    }
+    #headerbutton a{
+        text-decoration: none;
+        color: white;
+    }
+    #flagandstart{
+        align-items: center;
+    }
+    
+    .secondpage{
+        padding: 16px 32px 0px;
+        
+    }
+    .secondpagetext{
+        padding: 40px 48px;
+        border-width: 0.05px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: rgb(198, 199, 205);
+        background-image: url("2ndpageBG.jpg");
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: right;
+    
+    }
+    #gateway{
+        color: hsla(212, 82.0%, 54.3%, 1);
+    }
+    
+    #secondpagelist{
+        list-style-image: url("Kliponious-green-tick\ \(1\).svg");
+        line-height: 2.215rem;
+        margin: 32px 0px 0px 16px;
+        padding: 0px 0px 0px 16px;
+    }
+    
+    .container4{
+        padding: 32px;
+        display: flex;
+    }
+    
+    .sun{
+        text-decoration: none;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        line-height: 1.2;
+        border-radius: 0.25rem;
+        font-weight: 700;
+       
+        height: auto;
+        min-width:2.5rem;
+        font-size: 1rem;
+        padding: 14px 18px;
+        background: hsla(212, 82.0%, 54.3%, 1);
+        color: white;
+        }
+    .sun:hover{
+        background: hsl(209, 94%, 25%);
+    }
+    .sun:visited{
+        color: white;
+    }
+    #km{
+        line-height: 1.5;
+        text-decoration: none;
+        padding-left: 1.5rem;
+        color: hsla(212, 90.9%, 47.5%, 1);
+        font-weight: 700;
+    }
+    #km:hover{
+        color: hsl(209, 94%, 25%);    
+    }
+    #paymentcards{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 2fr);
+        grid-template-rows: repeat(2,200px);
+        grid-gap: 1rem;
+        margin-top:75px ;
+       text-overflow: clip;
+     
+    }
+    #paymentcards p{
+        font-size: 1rem;
+        color: hsla(229, 9.6%, 54.9%, 1);
+        padding: 0px 10px;
+        margin: 24px 0px 0px;
+    }
+    
+    #paymentcards a{
+        text-decoration: none;
+    }
+    #paymentcards h3{
+        padding-top: 20px;
+        padding-left: 5px;
+        line-height: 1.2;
+        font-weight: 800;
+        color: hsla(217, 59.3%, 21.2%, 1);
+    }
+    .paymentcards{
+        border: 0.005px solid;
+        border-color: rgb(211, 212, 217);
+        border-radius: 14px;
+    }
+    .km1{vertical-align: middle;
+        margin: 8px 0px 0px;
+        padding: 20px 24px;
+        font-weight:700;
+        color:hsla(212, 82.0%, 54.3%, 1);
+    }
+    .km1 a{
+        text-decoration: none;
+    }
+    .km1 a:visited{
+        color:hsla(212, 82.0%, 54.3%, 1);
+    }
+    .paymentcards img{float: inline-end;
+        background-color:hsla(212, 82.0%, 54.3%, 1);
+        top: 0.626rem;
+        right: 0.625rem;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 9999px;
+    display: block;
+    overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+    #page2footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;    
+        justify-content:center;
+        margin: 20px 0px 0px;
+        margin-bottom: 20px;
+        padding: 16px;
+        background: linear-gradient(180deg, rgba(74, 144, 245, 0.21) -34.7%, rgba(125, 186, 244, 0.063) 100%, rgba(125, 186, 244, 0.1295) 100%);
+    }
+    #page2footer h5{
+         font-weight: 800;
+         letter-spacing: 1;
+         font-size: 16px;
+         color: darkblue;
+    }
+    #page2footer p{
+        color: #5a6682;
+        font-size: 14px;
+        text-align: left;
+        margin: 0px 5px;
+    }
+    #page2footer a{
+        text-decoration: none;
+        color:#0b72b7;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    
+    .head2{ display: flex;
+        justify-content:space-around;
+        
+    }
+    .page3{
+        background-image: url(page3bg.svg);
+        padding: 224px 32px 500px;
+        background-repeat: no-repeat;
+        background-position: -400px 100px;
+       
+        
+    }
+    .page3head{
+        padding: 64px 0px 0px;
+    }
+    .page3head h2{font-size: 1.5rem;
+        font-weight: 800 ;
+        color:white;
+        line-height: 1.33;   
+    }
+    .page3list{
+        list-style-image: url("Kliponious-green-tick\ \(1\).svg");
+    }
+    #greenbar2 span{
+        display: inline-block;
+        width: 24px;
+        height: 4px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: hsla(158, 52.7%, 59.4%, 1);
+    }
+    #greenbar2{
+        display: flex;
+        justify-content: center;
+        line-height: 0px;
+        ;
+    }
+    
+    .page3text{
+        padding-left: 32px;
+        padding-right: 32px;}
+    .container5{
+            text-align: left;
+            width: 510px;
+        }
+    .container5 h3{
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: 1.75em;
+    color: white;
+    }
+    .container5 h3 img{
+        display: inline-block;
+        width: 168px;
+        top: calc(1px * -1);
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    .page3list{color: white;
+        font-size: 16px;
+        
+        line-height: 2.215rem;
+        margin: 32px 0px 0px 16px;
+        padding: 0px 0px 0px 16px;
+    }
+    
+    #container6{
+        padding: 48px 0px 0px;
+        padding-bottom: 40px;
+    }
+    .sun2{pad: 14px 18px;
+        background-color: hsla(212, 90.9%, 47.5%, 1);
+        color: white;
+    
+    }
+    #greenarrow{
+        padding: 12px 0px 0px;
+        width: 3rem;
+        opacity: 0.9;
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -ms-transform: skew(20deg);
+        transform: skew(20deg);
+        position: absolute;
+        background-color: hsla(158, 52.7%, 59.4%, 1);
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.25rem;
+        height: 3.5rem;
+        top: calc(var(1rem) * -1);
+        right: calc(var(4rem) * -1);
+    }
+    
+    .page3text{
+        background-image: url("page3banner.png");
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: right;
+        padding: 20px 48px;
+        border-width: 0.05px;
+        border-style: solid ;
+        border-color: lightslategray;
+        border-radius: 10px;
+    
+    }
+    #bankingcards{display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    justify-content:center;
+    margin: 75px 0px 0px;
+    grid-gap:1rem;
+    }
+    #bankingcards p{
+        font-size: 1rem;
+        color: hsla(229, 9.6%, 54.9%, 1);
+        padding: 0px 10px;
+        margin: 24px 0px 0px;
+    }
+    
+    #bankingcards a{
+        text-decoration: none;
+    }
+    #bankingcards h3{
+        padding-top: 20px;
+        padding-left: 5px;
+        line-height: 1.2;
+        font-weight: 800;
+        color: white;
+    }
+    .bankingcards{
+        border: 0.005px solid;
+        border-color: rgb(211, 212, 217);
+        border-radius: 14px;
+    }
+    .page3footer{
+        margin: 30px 0px;
+        padding: 32px 10px;
+        border-radius: 5px;
+        font-size: 1.25rem;
+        color:white;
+        border: 1px solid rgba(42, 134, 243, 0.32);
+    }
+    #b2{
+        font-weight: bold;
+        text-decoration: none;
+       
+    }
+    .sun a{
+        text-decoration: none;
+        color: white;
+    }
+    .page3head{
+        margin-bottom: 64px;
+    }
+    .page4{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        margin-top: -90px;
+    }
+    .page4body{
+        width: 100%;
+        max-width: 1080px;
+        margin: 0px 0px 0px;
+        padding: 0px 32px 96px;
+        
+    }
+    .page4text{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 2.5rem;
+        grid-column-gap:1rem;
+    
+    }
+    .page4cardhead img{
+        background-color: #2A86F3;
+        border-radius: 9999px;
+    }
+    .page4cardhead{
+        padding-top: 1rem;
+        line-height: 1.2;
+        font-weight: 800;
+        font-size: 1.125rem;
+        color: hsla(237, 90.9%, 8.6%, 1);
+    }
+    .page4card{
+        box-shadow: 2px 4px 9px 1px hsla(0, 0%, 0%, 0.05);
+        padding: 25px;
+    }
+    .page4card a{
+        text-decoration: none;
+    }
+    .page4cardpara{
+        font-size: 1rem;
+        padding: 0.75rem 0rem;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        color:#5a6682;
+    }
+    .suite{
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
+    #razorpaysuite{
+        color: #2A86F3;
+    }
+    #bankingcards a img{
+        background-color: #2A86F3;
+        border-radius: 9999px;
+        float: right;
+    }
+    #header3{
+        margin-top: -90px ;
+    }
+    
+    
+    
